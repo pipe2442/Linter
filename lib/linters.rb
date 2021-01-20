@@ -28,8 +28,8 @@ class Linter < Processor
   end
 
   def total_lines_message(count)
-    puts "Error - Your code lenght is #{count} -" \
-         "The maximum total length of your file should be 100 lines.\n\s"
+    puts "\nError - Your code lenght is #{count} -" \
+         'The maximum total length of your file should be 100 lines.'
   end
 
   def counting_lines
@@ -41,8 +41,7 @@ class Linter < Processor
     file = File.readlines(@file_path)
     file.each_with_index do |line, j|
       if line.length > 120
-        puts "Error - The length of line #{j + 1} is #{line.length} - " \
-             "The max single line length is 120\n\s"
+        puts "\nError - The length of line #{j + 1} is #{line.length} - The max single line length is 120"
       end
     end
   end
@@ -50,14 +49,14 @@ class Linter < Processor
   def match_brackets
     file = File.readlines(@file_path)
     file.each_with_index do |line, j|
-      puts "Error - You are missing a bracket ('[]' - '()' - '{}') at line #{j + 1}" unless brackets(line)
+      puts "\nError - You are missing a bracket ('[]' - '()' - '{}') at line #{j + 1}" unless brackets(line)
     end
   end
 
   def blank_line
     file = File.readlines(@file_path)
     file.each_with_index do |line, j|
-      puts 'Error - Blank line at the beginning of the script' if line.match(/^\n/) && j.zero?
+      puts "\nError - Blank line at the beginning of the script" if line.match(/^\n/) && j.zero?
     end
   end
 end

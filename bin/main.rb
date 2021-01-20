@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-require 'readline'
 require_relative '../lib/linters.rb'
 
 linter = Linter.new('../lib/example.rb')

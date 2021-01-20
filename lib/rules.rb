@@ -1,1 +1,0 @@
-puts 'linter rules'

@@ -4,6 +4,10 @@ require_relative '../lib/linters.rb'
 
 linter = Linter.new('../lib/example.rb')
 linter.find_parenthesis
+linter.square_brackets
+linter.curly_braces
+linter.counting_lines
+##linter.empty_space
 
 #
 # file = File.open('../lib/example.rb', "r")

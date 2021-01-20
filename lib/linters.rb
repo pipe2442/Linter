@@ -1,3 +1,5 @@
+require 'colorize'
+
 class Processor
   def brackets(line)
     brackets = { '(' => ')', '[' => ']', '{' => '}' }
@@ -29,7 +31,7 @@ class Linter < Processor
 
   def total_lines_message(count)
     puts "\nError - Your code lenght is #{count} -" \
-         'The maximum total length of your file should be 100 lines.'
+         'The maximum total length of your file should be 100 lines.'.colorize(:red)
   end
 
   def counting_lines
@@ -41,7 +43,7 @@ class Linter < Processor
     file = File.readlines(@file_path)
     file.each_with_index do |line, j|
       if line.length > 120
-        puts "\nError - The length of line #{j + 1} is #{line.length} - The max single line length is 120"
+        puts "\nError - Length of line #{j + 1} is #{line.length} - The max single line length is 120".colorize(:red)
       end
     end
   end
@@ -49,14 +51,14 @@ class Linter < Processor
   def match_brackets
     file = File.readlines(@file_path)
     file.each_with_index do |line, j|
-      puts "\nError - You are missing a bracket ('[]' - '()' - '{}') at line #{j + 1}" unless brackets(line)
+      puts "\nError - Missing a bracket ('[]' - '()' - '{}') at line #{j + 1}".colorize(:red) unless brackets(line)
     end
   end
 
   def blank_line
     file = File.readlines(@file_path)
     file.each_with_index do |line, j|
-      puts "\nError - Blank line at the beginning of the script" if line.match(/^\n/) && j.zero?
+      puts "\nError - Blank line at the beginning of the script".colorize(:red) if line.match(/^\n/) && j.zero?
     end
   end
 end

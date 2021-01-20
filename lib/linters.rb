@@ -1,18 +1,18 @@
 class Processor
-  def matching_brackets?(a_string)
-    brackets = { '[' => ']', '{' => '}', '(' => ')' }
-    lefts = brackets.keys
-    rights = brackets.values
-    stack = []
-    a_string.each_char do |c|
-      if lefts.include? c
-        stack.push c
-      elsif rights.include? c
-        return false if stack.empty?
-        return false unless brackets[stack.pop].eql? c
+  def brackets(line)
+    brackets = { '(' => ')', '[' => ']', '{' => '}' }
+    opening = brackets.keys
+    closing = brackets.values
+    control = []
+    line.each_char do |char|
+      if opening.include? char
+        control << char
+      elsif closing.include? char
+        return false if control.empty?
+        return false unless brackets[control.pop].eql? char
       end
     end
-    stack.empty?
+    control.empty?
   end
 
   def total_lines(path)
@@ -23,14 +23,13 @@ class Processor
 end
 
 class Linter < Processor
-    
   def initialize(file_path)
     @file_path = file_path
   end
 
   def total_lines_message(count)
-    puts "Error - Your code lenght is #{count}"
-    puts "The maximum total length of your file should be 100 lines.\n\s"
+    puts "Error - Your code lenght is #{count} -" \
+         "The maximum total length of your file should be 100 lines.\n\s"
   end
 
   def counting_lines
@@ -51,9 +50,7 @@ class Linter < Processor
   def match_brackets
     file = File.readlines(@file_path)
     file.each_with_index do |line, j|
-      if matching_brackets?(line) == false
-        puts "Error - You are missing a bracket ('[]' - '()' - '{}') at line #{j + 1}"
-      end
+      puts "Error - You are missing a bracket ('[]' - '()' - '{}') at line #{j + 1}" unless brackets(line)
     end
   end
 
@@ -63,5 +60,4 @@ class Linter < Processor
       puts 'Error - Blank line at the beginning of the script' if line.match(/^\n/) && j.zero?
     end
   end
-
 end

@@ -18,9 +18,9 @@ This project has been developed to accomplish the Ruby module capstone project a
 
 ## Built With
 
-- Ruby.
-- rspec.
-- Git.
+- [Ruby](https://www.ruby-lang.org/en/).
+- [rspec](https://rspec.info/).
+- [Git](https://git-scm.com/).
 - [Rubocop](https://github.com/microverseinc/linters-config/tree/master/ruby). 
 
 ## Live Demo
@@ -34,13 +34,13 @@ This project has been developed to accomplish the Ruby module capstone project a
 
 ### Prerequisites
 
-- Ruby.
-- Git.
+- [Ruby](https://www.ruby-lang.org/en/).
+- [Git](https://git-scm.com/).
 
 ### Optional
 
-- Rubocop.
-- rspec.
+- [Rubocop](https://github.com/microverseinc/linters-config/tree/master/ruby). 
+- [rspec](https://rspec.info/).
 
 ### Usage
 

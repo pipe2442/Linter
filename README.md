@@ -1,10 +1,10 @@
-#Ruby Linter Capostone Project.
+# Ruby Linter Capostone Project.
 # 
 ## Single Linter Project
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 
 # Project Screenshot
-![screenshot]()
+![screenshot](https://rawcdn.githack.com/pipe2442/Linter/feature/linter/examples/linter_project_screen.PNG)
 
 
 This is a basic linter project created with ruby. The Linter is designed to scan the following errors in any inspepcted document:
@@ -39,7 +39,7 @@ Setup your machine setup
 - Ruby
 - Git
 
-  > Optional
+### Optional
 
 - Rubocop
 - rspec

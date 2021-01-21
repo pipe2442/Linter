@@ -21,7 +21,7 @@ This project has been developed to accomplish the Ruby module capstone project a
 - Ruby.
 - rspec.
 - Git.
-- [Rubocop].(https://github.com/microverseinc/linters-config/tree/master/ruby) 
+- [Rubocop](https://github.com/microverseinc/linters-config/tree/master/ruby). 
 
 ## Live Demo
 

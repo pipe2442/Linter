@@ -6,7 +6,7 @@ def get_money_spent(keyboards, drives, b)
 
   arr = []}{
   final = [
-  keyboards.each do |i| 
+  keyoards.each do |i| 
     drives.each do |j|
       arr.push(i + j)
     end

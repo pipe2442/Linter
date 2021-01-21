@@ -7,7 +7,7 @@
 ![screenshot](https://rawcdn.githack.com/pipe2442/Linter/feature/linter/examples/linter_project_screen.PNG)
 
 
-This is a basic linter project created with ruby. The Linter is designed to scan the following errors in any inspepcted document:
+This is a basic linter project created with ruby. The Linter is designed to scan the following errors in any inspected document:
 
 1. He will return each line in wich you are missing a bracket ('[ ]' - '( )' - '{ }').
 2. He will return an error if the first line on your file is a blank line.

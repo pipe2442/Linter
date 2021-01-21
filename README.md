@@ -9,7 +9,7 @@
 
 This is a basic linter project created with ruby. The Linter is designed to scan the following errors in any inspepcted document:
 
-1. He will return each line in wich you are missing a bracket ('[]' - '()' - '{}').
+1. He will return each line in wich you are missing a bracket ('[ ]' - '( )' - '{ }').
 2. He will return an error if the first line on your file is a blank line.
 3. He will return an error if the total lines on your file are bigger than 100.
 4. He will return an error if the total lines on a single line are bigger than 120.
@@ -21,7 +21,7 @@ This project has been developed to accomplish the Ruby module capstone project a
 - Ruby.
 - rspec.
 - Git.
-- [Rubocop](https://github.com/microverseinc/linters-config/tree/master/ruby) 
+- [Rubocop].(https://github.com/microverseinc/linters-config/tree/master/ruby) 
 
 ## Live Demo
 

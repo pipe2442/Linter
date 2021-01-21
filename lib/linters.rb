@@ -30,7 +30,7 @@ class Linter < Processor
   end
 
   def total_lines_message(count)
-    return "\nError - Your code lenght is #{count} -" \
+    "\nError - Your code lenght is #{count} -" \
          'The maximum total length of your file should be 100 lines.'.colorize(:red)
   end
 

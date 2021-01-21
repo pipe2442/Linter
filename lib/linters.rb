@@ -1,5 +1,4 @@
 require 'colorize'
-
 class Processor
   def brackets(line)
     brackets = { '(' => ')', '[' => ']', '{' => '}' }

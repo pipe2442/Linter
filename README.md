@@ -1,4 +1,4 @@
-# Ruby Linter Capostone Project.
+# Ruby Linter Capostone Project
 # 
 ## Single Linter Project
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
@@ -20,7 +20,7 @@ This project has been developed to accomplish the Ruby module capstone project a
 
 - Ruby.
 - rspec.
-- Git
+- Git.
 - [Rubocop](https://github.com/microverseinc/linters-config/tree/master/ruby) 
 
 ## Live Demo
@@ -29,31 +29,29 @@ This project has been developed to accomplish the Ruby module capstone project a
 
 ## Getting Started
 
-**Install on Your Own Machine.**
-**You can skip the linter and HTML validators setup if you don't want to validate the code**
-
-Setup your machine setup
+**Install Ruby on Your Own Machine.**
+**Install Git on Your Own Machine.**
 
 ### Prerequisites
 
-- Ruby
-- Git
+- Ruby.
+- Git.
 
 ### Optional
 
-- Rubocop
-- rspec
+- Rubocop.
+- rspec.
 
 ### Usage
 
-- Create new folder
-- Open your terminal
-- Run ``` git clone https://github.com/pipe2442/Linter.git ```
-- Enter root folder with command ``` cd Linter ```
-- Enter bin folder with command ``` cd bin ```
-- Execute the program with command ``` ruby main.rb ```
-- You will find an examples folders in wich you can add any file you want to
-  scan with the Linter. You just need to add the file and edit the path on
+- Create new folder.
+- Open your terminal.
+- Run ``` git clone https://github.com/pipe2442/Linter.git ```.
+- Enter root folder with command ``` cd Linter ```.
+- Enter bin folder with command ``` cd bin ```.
+- Execute the program with command ``` ruby main.rb ```.
+- You will find an examples folders in wich you can add any file you want to.
+  scan with the Linter. You just need to add the file and edit the path on.
   the main,rb file.
 
 ## Authors

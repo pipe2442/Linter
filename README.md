@@ -52,7 +52,7 @@ This project has been developed to accomplish the Ruby module capstone project a
 - Execute the program with command ``` ruby main.rb ```.
 - You will find an examples folders in wich you can add any file you want to.
   scan with the Linter. You just need to add the file and edit the path on.
-  the main,rb file.
+  the main.rb file.
 
 ## Authors
 

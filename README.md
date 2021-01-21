@@ -50,8 +50,8 @@ This project has been developed to accomplish the Ruby module capstone project a
 - Enter root folder with command ``` cd Linter ```.
 - Enter bin folder with command ``` cd bin ```.
 - Execute the program with command ``` ruby main.rb ```.
-- You will find an examples folders in wich you can add any file you want to.
-  scan with the Linter. You just need to add the file and edit the path on.
+- You will find an examples folder in wich you can add any file you want to
+  scan with the Linter. You just need to add the file and edit the path on
   the main.rb file.
 
 ## Authors
@@ -66,7 +66,7 @@ This project has been developed to accomplish the Ruby module capstone project a
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/pipe2442/Linter/issues).
 
 ## Show your support
 

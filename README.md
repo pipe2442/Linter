@@ -75,7 +75,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - [Thanks Microverse][https://github.com/microverseinc]
-- [Acknowledgments for PatashuleKE. Thanks for your design](https://www.behance.net/gallery/25563385/PatashuleKE).
   
 ## 📝 License
 

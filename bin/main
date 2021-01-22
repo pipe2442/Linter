@@ -1,5 +1,16 @@
 #!/usr/bin/env ruby
 require_relative '../lib/linters.rb'
+require_relative '../lib/processor.rb'
+
+class Messages
+  def blank_error_message
+    puts "\nError - Blank line at the beginning of the script"
+  end
+
+  def blank_success_message
+    puts "\nCongrats - No blank line at the beginning of the script."
+  end
+end
 
 linter_bad = Linter.new('examples/bad_example')
 linter_good = Linter.new('examples/good_example')
@@ -14,11 +25,11 @@ puts "\nWelcome to this simple Linter.\n" \
 puts "\n\nHere you will see the results of a script with errors: \n"
 linter_bad.match_brackets
 puts linter_bad.line_length
-puts linter_bad.blank_line
 puts linter_bad.counting_lines
+linter_bad.blank_line
 
 puts "\n\nHere you will see the results of a script with NO errors: \n"
 puts linter_good.match_brackets
 puts linter_good.line_length
-puts linter_good.blank_line
 puts linter_good.counting_lines
+linter_good.blank_line

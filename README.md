@@ -3,9 +3,7 @@
 ## Single Linter Project
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 
-# Project Screenshot
-![screenshot](https://rawcdn.githack.com/pipe2442/Linter/feature/linter/examples/linter_project_screen.PNG)
-
+![demo](./examples/lintermain.gif)
 
 This is a basic linter project created with ruby. The Linter is designed to scan the following errors in any inspected document:
 
@@ -53,6 +51,9 @@ This project has been developed to accomplish the Ruby module capstone project a
 - You will find an examples folder in wich you can add any file you want to
   scan with the Linter. You just need to add the file and edit the path on
   the main.rb file.
+  
+# Project Screenshot
+![screenshot](https://rawcdn.githack.com/pipe2442/Linter/feature/linter/examples/linter_project_screen.PNG)
 
 ## Authors
 

@@ -9,7 +9,7 @@ class Linter < Processor
   def counting_lines
     count = total_lines(@file_path)
     @message.total_lines_message(count) if count > 100
-    @message.total_lines_success if count <= 100
+    @message.success_message('total lines') if count <= 100
   end
 
   def line_length
@@ -21,7 +21,7 @@ class Linter < Processor
         @message.line_length_error(line, j)
       end
     end
-    @message.line_length_success if counter.zero?
+    @message.success_message('line length') if counter.zero?
   end
 
   def match_brackets
@@ -33,7 +33,7 @@ class Linter < Processor
         counter += 1
       end
     end
-    @message.brackets_success if counter.zero?
+    @message.success_message('brackets') if counter.zero?
   end
 
   def blank_line
@@ -42,7 +42,7 @@ class Linter < Processor
       if line.match(/^\n/) && j.zero?
         @message.blank_error_message
       elsif j.zero?
-        @message.blank_success_message
+        @message.success_message('blank space at the beginning')
       end
     end
   end

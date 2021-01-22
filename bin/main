@@ -8,10 +8,6 @@ class Messages
          'The maximum total length of your file should be 100 lines.'
   end
 
-  def total_lines_success
-    puts "\nCongrats - No error with the total lines in your file."
-  end
-
   def blank_error_message
     puts "\nError - Blank line at the beginning of the script"
   end
@@ -20,20 +16,12 @@ class Messages
     puts "\nError - Length of line #{index + 1} is #{line.length} - The max single line length is 120"
   end
 
-  def line_length_success
-    puts "\nCongrats - No error with single lines length."
+  def brackets_error(index)
+    puts "\nError - Missing a bracket ('[]' - '()' - '{}') at line #{index + 1}"
   end
 
-  def blank_success_message
-    puts "\nCongrats - No blank line at the beginning of the script."
-  end
-
-  def brackets_error(j)
-    puts "\nError - Missing a bracket ('[]' - '()' - '{}') at line #{j + 1}"
-  end
-
-  def brackets_success
-    puts "\nCongrats - No error with brackets in your file."
+  def success_message(method)
+    puts "\nCongrats - No error with the #{method} in your file."
   end
 end
 

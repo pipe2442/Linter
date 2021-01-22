@@ -1,4 +1,6 @@
 class Processor
+  private
+
   def brackets(line)
     brackets = { '(' => ')', '[' => ']', '{' => '}' }
     opening = brackets.keys

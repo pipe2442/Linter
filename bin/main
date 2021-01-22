@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 require_relative '../lib/linters.rb'
 
-linter_bad = Linter.new('../examples/bad_example')
-linter_good = Linter.new('../examples/good_example')
+linter_bad = Linter.new('examples/bad_example')
+linter_good = Linter.new('examples/good_example')
 
 puts "\nWelcome to this simple Linter.\n" \
      "\nThis linter will check the following mistakes in your code:\n" \

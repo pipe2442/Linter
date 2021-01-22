@@ -1,4 +1,3 @@
-
 class Processor
   def brackets(line)
     brackets = { '(' => ')', '[' => ']', '{' => '}' }
@@ -22,5 +21,3 @@ class Processor
     count
   end
 end
-
-

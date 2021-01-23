@@ -4,8 +4,7 @@ require_relative '../lib/processor.rb'
 
 class Messages
   def total_lines_message(count)
-    puts "\nError - Your code lenght is #{count} -" \
-         'The maximum total length of your file should be 100 lines.'
+    puts "\nError - Metrics/LineLength: Your File is too long [#{count}, 100]"
   end
 
   def blank_error_message
@@ -13,7 +12,7 @@ class Messages
   end
 
   def line_length_error(line, index)
-    puts "\nError - Length of line #{index + 1} is #{line.length} - The max single line length is 120"
+    puts "\nError - Metrics/LineLength: Line #{index + 1} is too long [#{line.lenw gth + 1}, 120]"
   end
 
   def brackets_error(index)
@@ -30,10 +29,10 @@ linter_good = Linter.new('examples/good_example')
 
 puts "\nWelcome to this simple Linter.\n" \
      "\nThis linter will check the following mistakes in your code:\n" \
-     "1. He will return each line in wich you are missing a bracket.\n" \
-     "2. He will return an error if the first line on your file is a blank line.\n" \
-     "3. He will return an error if the total lines on your file are bigger than 100.\n" \
-     "4. He will return an error if the total lines on a single line are bigger than 120.\n"
+     "1. Error - If you are missing a bracket.\n" \
+     "2. Error - If the first line on your file is a blank line.\n" \
+     "3. Error - If the total lines on your file (Including blank spaces) is bigger than 100.\n" \
+     "4. Error - If the total characters on a single line (Including blank spaces) are bigger than 120.\n"
 
 puts "\n\nHere you will see the results of a script with errors: \n"
 linter_bad.match_brackets

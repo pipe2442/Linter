@@ -22,5 +22,4 @@ def get_money_spent(keyboards, drives, b)
     return final.max
 end
 
-
 get_money_spent([40, 50, 60], [5, 8, 2], 60)

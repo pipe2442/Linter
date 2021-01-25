@@ -2,28 +2,6 @@
 require_relative '../lib/linters.rb'
 require_relative '../lib/processor.rb'
 
-class Messages
-  def total_lines_message(count)
-    puts "\nError - Metrics/LineLength: Your File is too long [#{count}, 100]"
-  end
-
-  def blank_error_message
-    puts "\nError - Blank line at the beginning of the script"
-  end
-
-  def line_length_error(line, index)
-    puts "\nError - Metrics/LineLength: Line #{index + 1} is too long [#{line.lenw gth + 1}, 120]"
-  end
-
-  def brackets_error(index)
-    puts "\nError - Missing a bracket ('[]' - '()' - '{}') at line #{index + 1}"
-  end
-
-  def success_message(method)
-    puts "\nCongrats - No error with the #{method} in your file."
-  end
-end
-
 linter_bad = Linter.new('examples/bad_example')
 linter_good = Linter.new('examples/good_example')
 
@@ -35,13 +13,13 @@ puts "\nWelcome to this simple Linter.\n" \
      "4. Error - If the total characters on a single line (Including blank spaces) are bigger than 120.\n"
 
 puts "\n\nHere you will see the results of a script with errors: \n"
-linter_bad.match_brackets
-linter_bad.line_length
-linter_bad.counting_lines
-linter_bad.blank_line
+puts linter_bad.match_brackets
+puts linter_bad.line_length
+puts linter_bad.counting_lines
+puts linter_bad.blank_line
 
 puts "\n\nHere you will see the results of a script with NO errors: \n"
-linter_good.match_brackets
-linter_good.line_length
-linter_good.counting_lines
-linter_good.blank_line
+puts linter_good.match_brackets
+puts linter_good.line_length
+puts linter_good.counting_lines
+puts linter_good.blank_line

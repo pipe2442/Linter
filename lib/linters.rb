@@ -3,47 +3,52 @@ require_relative 'processor.rb'
 class Linter < Processor
   def initialize(file_path)
     @file_path = file_path
-    @message = Messages.new
   end
 
   def counting_lines
     count = total_lines(@file_path)
-    @message.total_lines_message(count) if count > 100
-    @message.success_message('total lines') if count <= 100
+    ("\nError - Metrics/LineLength: Your File is too long [#{count}, 100]" if count > 100) ||
+      ("\nCongrats - No error with the with lines in your file." if count <= 100)
   end
 
   def line_length
-    counter = 0
+    message = nil
+    no_error = true
     file = File.readlines(@file_path)
     file.each_with_index do |line, j|
-      if line.length > 120
-        counter += 1
-        @message.line_length_error(line, j)
-      end
+      no_error = false if line.length > 120
+      message = "\nError - Metrics/LineLength: Line #{j + 1} is too long [#{line.length + 1}, 120]" if line.length > 120
     end
-    @message.success_message('line length') if counter.zero?
+    message = "\nCongrats - No error with the line length in your file." if no_error == true
+    message
   end
 
   def match_brackets
+    error = []
+    message = nil
     counter = 0
     file = File.readlines(@file_path)
     file.each_with_index do |line, j|
       unless brackets(line)
-        @message.brackets_error(j)
+        error.push("\nError - Missing a bracket ('[]' - '()' - '{}') at line #{j + 1}")
         counter += 1
       end
     end
-    @message.success_message('brackets') if counter.zero?
+    message = "\nCongrats - No error with the Brackets in your file." if counter.zero?
+    message = error if counter > 0
+    message
   end
 
   def blank_line
+    message = nil
     file = File.readlines(@file_path)
     file.each_with_index do |line, j|
       if line.match(/^\n/) && j.zero?
-        @message.blank_error_message
+        message = "\nError - Blank line at the beginning of the script"
       elsif j.zero?
-        @message.success_message('blank space at the beginning')
+        message = "\nCongrats - No error with blank space at the beginning in your file"
       end
     end
+    message
   end
 end

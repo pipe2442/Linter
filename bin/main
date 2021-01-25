@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 require_relative '../lib/linters.rb'
-require_relative '../lib/processor.rb'
 
 linter_bad = Linter.new('examples/bad_example')
 linter_good = Linter.new('examples/good_example')

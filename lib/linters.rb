@@ -8,7 +8,7 @@ class Linter < Processor
   def counting_lines
     count = total_lines(@file_path)
     ("\nError - Metrics/LineLength: Your File is too long [#{count}, 100]" if count > 100) ||
-      ("\nCongrats - No error with the with lines in your file." if count <= 100)
+      ("\nCongrats - No error with the total length of your file." if count <= 100)
   end
 
   def line_length
@@ -19,7 +19,7 @@ class Linter < Processor
       no_error = false if line.length > 120
       message = "\nError - Metrics/LineLength: Line #{j + 1} is too long [#{line.length + 1}, 120]" if line.length > 120
     end
-    message = "\nCongrats - No error with the line length in your file." if no_error == true
+    message = "\nCongrats - No error with any single line length of your file." if no_error == true
     message
   end
 

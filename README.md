@@ -9,8 +9,8 @@ This is a basic linter project created with ruby. The Linter is designed to scan
 
 1. He will return each line in wich you are missing a bracket ('[ ]' - '( )' - '{ }').
 2. He will return an error if the first line on your file is a blank line.
-3. He will return an error if the total lines on your file are bigger than 100.
-4. He will return an error if the total lines on a single line are bigger than 120.
+3. He will return an error if the total length on your file (Including blank spaces) is bigger than 100.
+4. He will return an error if the total length on a single line (Including blank spaces) is bigger than 120.
 
 This project has been developed to accomplish the Ruby module capstone project at Microverse.
 
@@ -48,8 +48,7 @@ This project has been developed to accomplish the Ruby module capstone project a
 - Open your terminal.
 - Run ``` git clone https://github.com/pipe2442/Linter.git ```.
 - Enter root folder with command ``` cd Linter ```.
-- Enter bin folder with command ``` cd bin ```.
-- Execute the program with command ``` ruby main.rb ```.
+- Execute the program with command ``` ruby bin/main ```.
 - You will find an examples folder in wich you can add any file you want to
   scan with the Linter. You just need to add the file and edit the path on
   the main.rb file.

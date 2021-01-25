@@ -21,11 +21,17 @@ describe Linter do
     it 'Returns success message if length of a single line < 120' do
       expect(linter_good.line_length).to include('Congrats')
     end
+    it 'Returns error message if length of a single line > 120' do
+      expect(linter.line_length).to include('Error')
+    end
   end
 
   describe '#match_brackets' do
     it 'Returns success message if there is no missing bracket' do
       expect(linter_good.match_brackets).to include('Congrats')
+    end
+    it 'Returns error messageif there is a missing bracket' do
+      expect(linter.match_brackets).to_not be_nil
     end
   end
 

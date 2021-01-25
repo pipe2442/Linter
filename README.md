@@ -3,7 +3,7 @@
 ## Single Linter Project
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 
-![demo](./examples/lintermain.gif)
+![demo](./assets/finalcomplete.gif)
 
 This is a basic linter project created with ruby. The Linter is designed to scan the following errors in any inspected document:
 

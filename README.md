@@ -60,8 +60,8 @@ This project has been developed to accomplish the Ruby module capstone project a
 
 👤 **Luis Felipe Angulo Torres**
 
-- Github: [@donCodigo_](https://github.com/donCodigo_)
-- Twitter: [@pipe2442](https://twitter.com/pipe2442)
+- Github: [pipe2442](https://github.com/pipe2442)
+- Twitter: [@donCodigo_](https://twitter.com/donCodigo_)
 - Linkedin: [linkedin](https://www.linkedin.com/in/luis-felipe-angulo-torres-95098b139/)
 
 ## 🤝 Contributing

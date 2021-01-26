@@ -9,8 +9,11 @@ describe Linter do
   let(:linter_good) { Linter.new(path2) }
 
   describe '#counting_lines' do
-    it 'Returns error message if length of file is > 100' do
+    it 'Returns Error message if length of file is > 100' do
       expect(linter.counting_lines).to include('Error')
+    end
+    it 'Returns error and not nil variablet' do
+      expect(linter.counting_lines).to_not be_nil
     end
     it 'Returns success message if length of file is < 100' do
       expect(linter_good.counting_lines).to include('Congrats')
@@ -30,7 +33,7 @@ describe Linter do
     it 'Returns success message if there is no missing bracket' do
       expect(linter_good.match_brackets).to include('Congrats')
     end
-    it 'Returns error messageif there is a missing bracket' do
+    it 'Returns error message if there is a missing bracket' do
       expect(linter.match_brackets).to_not be_nil
     end
   end

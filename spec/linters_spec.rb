@@ -12,7 +12,7 @@ describe Linter do
     it 'Returns Error message if length of file is > 100' do
       expect(linter.counting_lines).to include('Error')
     end
-    it 'Returns error and not nil variablet' do
+    it 'Returns error and not nil variable' do
       expect(linter.counting_lines).to_not be_nil
     end
     it 'Returns success message if length of file is < 100' do

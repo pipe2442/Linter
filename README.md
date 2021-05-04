@@ -14,6 +14,8 @@ This is a basic linter project created with ruby. The Linter is designed to scan
 
 This project has been developed to accomplish the Ruby module capstone project at Microverse.
 
+![screenshot](https://github.com/pipe2442/transaction-app-smart_spending/blob/testing/unit-testing/app/assets/images/ruby-on-rails-development.jpg)
+
 ![screenshot](https://rawcdn.githack.com/pipe2442/Linter/feature/linter/examples/ruby-programming-language.png)
 
 ## Built With

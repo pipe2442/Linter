@@ -18,7 +18,6 @@ This project has been developed to accomplish the Ruby module capstone project a
 
 
 
-
 <div align="center">
     <h1>
         <img src="https://i.ibb.co/TtKdzZQ/trplogo.png" alt="TRP Emblem">
@@ -48,7 +47,7 @@ This project has been developed to accomplish the Ruby module capstone project a
           <img src="https://img.shields.io/badge/maintainer-%40pipe2442-blue">
         </a>
         <a href="https://www.github.com/dmunoz-10">
-          <img src="https://img.shields.io/badge/maintainer-%40dmunoz-10-yellow">
+          <img src="https://img.shields.io/badge/maintainer-%40dmunoz10-yellow">
         </a>
         <a href="https://www.github.com/lacides">
           <img src="https://img.shields.io/badge/maintainer-%40lacides-blue">

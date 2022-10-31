@@ -17,6 +17,8 @@ This project has been developed to accomplish the Ruby module capstone project a
 ![screenshot](https://github.com/pipe2442/transaction-app-smart_spending/blob/testing/unit-testing/app/assets/images/ruby-on-rails-development.jpg)
 
 
+
+
 <div align="center">
     <h1>
         <img src="https://i.ibb.co/TtKdzZQ/trplogo.png" alt="TRP Emblem">
@@ -40,19 +42,19 @@ This project has been developed to accomplish the Ruby module capstone project a
     </h4>
     <h3>
         <a href="https://www.github.com/koombea">
-          <img src="https://img.shields.io/badge/maintainer-%40andiemmadavies-yellow">
+          <img src="https://img.shields.io/badge/maintainer-%40koombea-green">
         </a>
         <a href="https://www.github.com/pipe2442">
-          <img src="https://img.shields.io/badge/maintainer-%40andiemmadavies-yellow">
+          <img src="https://img.shields.io/badge/maintainer-%40pipe2442-blue">
         </a>
         <a href="https://www.github.com/dmunoz-10">
-          <img src="https://img.shields.io/badge/maintainer-%40andiemmadavies-yellow">
+          <img src="https://img.shields.io/badge/maintainer-%40dmunoz-10-yellow">
         </a>
         <a href="https://www.github.com/lacides">
-          <img src="https://img.shields.io/badge/maintainer-%40andiemmadavies-yellow">
+          <img src="https://img.shields.io/badge/maintainer-%40lacides-blue">
         </a>
         <a href="https://www.github.com/luiskhernandez">
-          <img src="https://img.shields.io/badge/maintainer-%40andiemmadavies-yellow">
+          <img src="https://img.shields.io/badge/maintainer-%40luiskhernandez-purple">
         </a>
         <a href="https://www.troweprice.com/corporate/us/en/home.html">
             <img src="https://img.shields.io/website?url=http%3A%2F%2Fwww.triumphmayflowerclub.com%2F">
@@ -67,6 +69,13 @@ This project has been developed to accomplish the Ruby module capstone project a
 </div>
 
 ![screenshot](https://i.ibb.co/wr8tJYx/trowbanner.png)
+
+
+
+
+
+
+
 
 
 

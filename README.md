@@ -18,8 +18,19 @@ This project has been developed to accomplish the Ruby module capstone project a
 
 ![screenshot](https://rawcdn.githack.com/pipe2442/Linter/feature/linter/examples/ruby-programming-language.png)
 
-https://i.ibb.co/wr8tJYx/trowbanner.png
+
+
+<h1>
+  <img src="https://i.ibb.co/ZBMBnHp/Brand-zone.png" alt="TRP Emblem" height="23px">
+  <a href="https://www.triumphmayflowerclub.com/">TRowePrice</a>
+</h1>
+
 ![screenshot](https://i.ibb.co/wr8tJYx/trowbanner.png)
+
+
+
+
+
 ## Built With
 
 - [Ruby](https://www.ruby-lang.org/en/).

@@ -18,6 +18,11 @@ This project has been developed to accomplish the Ruby module capstone project a
 
 
 
+
+
+
+
+
 <div align="center">
     <h1>
         <img src="https://i.ibb.co/TtKdzZQ/trplogo.png" alt="TRP Emblem">
@@ -58,7 +63,7 @@ This project has been developed to accomplish the Ruby module capstone project a
         <a href="https://www.troweprice.com/corporate/us/en/home.html">
             <img src="https://img.shields.io/website?url=http%3A%2F%2Fwww.troweprice.com%2F">
         </a>
-        <a href="#License">
+        <a href="##License">
             <img src="https://img.shields.io/badge/licence-%C2%A9-crimson">
         </a>
     </h3>
@@ -73,8 +78,12 @@ T. Rowe Price is an independent investment management firm focused on helping cl
 ## Built With
 
 - [React](https://reactjs.org/).
+- [Vite](https://vitejs.dev/).
+- [Yarn](https://yarnpkg.com/).
 - [Typescript](https://www.typescriptlang.org/)
 - [TailwindCss](https://tailwindcss.com/).
+- [Eslint](https://eslint.org/).
+- [Prettier](https://prettier.io/).
 - [Jest](https://jestjs.io/). 
 - [Cypress](https://www.cypress.io/).
 - [Storybook](https://storybook.js.org/).
@@ -82,7 +91,6 @@ T. Rowe Price is an independent investment management firm focused on helping cl
 - [Commitizen](https://github.com/commitizen/cz-cli). 
 - [VictoryChart](https://formidable.com/open-source/victory/docs/victory-chart/).
 - [Git](https://git-scm.com/).
-
 
 ## Getting Started
 
@@ -110,10 +118,46 @@ $ yarn dev
 
 It's recommended to install extensions related to the following libraries in your editor:
 
-- Prettier
-- Eslint
+- [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
 
 ### Set up pre-commits
+
+Run the following commands to set up [Commitizen](https://github.com/commitizen/cz-cli) for pre-commits. This will prevent commits with linting errors.
+
+```bash
+$ npx commitizen init cz-conventional-changelog --save-dev --save-exact
+```
+
+Every time you want to add a new commit to this project instead of using `git commit -m 'commit message'` you can use `npx cz` to write commit messages with no lint errors. Additional info and docs can be found [here](https://github.com/commitizen/cz-cli).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Live Demo
 

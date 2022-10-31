@@ -16,16 +16,13 @@ This project has been developed to accomplish the Ruby module capstone project a
 
 ![screenshot](https://github.com/pipe2442/transaction-app-smart_spending/blob/testing/unit-testing/app/assets/images/ruby-on-rails-development.jpg)
 
-![screenshot](https://rawcdn.githack.com/pipe2442/Linter/feature/linter/examples/ruby-programming-language.png)
-
-
 
 <div align="center">
     <h1>
         <img src="https://i.ibb.co/TtKdzZQ/trplogo.png" alt="TRP Emblem">
         <a href="https://www.troweprice.com/corporate/us/en/home.html">TRowePrice</a>
     </h1>
-    <h4><b>New website for the Triumph Mayflower Club, launched in March 2018</b></h4>
+    <h4><b>Frontend internal seller demo app for TrowePrice</b></h4>
     <h4>
         <a href="#links">Links</a>
         •
@@ -42,26 +39,29 @@ This project has been developed to accomplish the Ruby module capstone project a
         <a href="#copyright">Copyright</a>
     </h4>
     <h3>
-        <a href="https://www.github.com/andiemmadavies">
-            <img src="https://img.shields.io/badge/maintainer-%40andiemmadavies-yellow">
+        <a href="https://www.github.com/koombea">
+          <img src="https://img.shields.io/badge/maintainer-%40andiemmadavies-yellow">
         </a>
-        <a href="https://www.triumphmayflowerclub.com/">
+        <a href="https://www.github.com/pipe2442">
+          <img src="https://img.shields.io/badge/maintainer-%40andiemmadavies-yellow">
+        </a>
+        <a href="https://www.github.com/dmunoz-10">
+          <img src="https://img.shields.io/badge/maintainer-%40andiemmadavies-yellow">
+        </a>
+        <a href="https://www.github.com/lacides">
+          <img src="https://img.shields.io/badge/maintainer-%40andiemmadavies-yellow">
+        </a>
+        <a href="https://www.github.com/luiskhernandez">
+          <img src="https://img.shields.io/badge/maintainer-%40andiemmadavies-yellow">
+        </a>
+        <a href="https://www.troweprice.com/corporate/us/en/home.html">
             <img src="https://img.shields.io/website?url=http%3A%2F%2Fwww.triumphmayflowerclub.com%2F">
         </a>
-        <a href="https://www.triumphmayflowerclub.com/news/2018/03/launchofthenewclubwebsite">
-            <img src="https://img.shields.io/badge/launched-march%202018-teal">
-        </a>
-        <a href="https://www.github.com/Stack-in-a-box/triumphmayflowerclub.com/commits/master">
+        <a href="https://www.github.com/koombea/TRP-web/commits/develop">
             <img src="https://img.shields.io/github/last-commit/Stack-in-a-box/triumphmayflowerclub.com?color=blue&label=updated">
         </a>
-        <a href="https://www.github.com/Stack-in-a-box/triumphmayflowerclub.com/releases/latest">
-            <img src="https://img.shields.io/github/v/release/Stack-in-a-box/triumphmayflowerclub.com?color=blueviolet&label=version">
-        </a>
-        <a href="#copyright">
+        <a href="#License">
             <img src="https://img.shields.io/badge/licence-%C2%A9-crimson">
-        </a>
-        <a href="https://www.facebook.com/triumphmayflowerclub">
-            <img src="https://img.shields.io/badge/social-facebook-darkred">
         </a>
     </h3>
 </div>

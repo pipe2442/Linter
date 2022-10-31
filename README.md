@@ -66,14 +66,6 @@ This project has been developed to accomplish the Ruby module capstone project a
 
 ![screenshot](https://i.ibb.co/wr8tJYx/trowbanner.png)
 
-
-
-
-
-
-
-
-
 ## Overview
 
 T. Rowe Price is an independent investment management firm focused on helping clients meet their objectives and achieve their long-term financial goals. Clients rely on our active management approach, which we call strategic investing, and our broad range of equity, fixed income, and multi-asset investment capabilities.
@@ -90,6 +82,38 @@ T. Rowe Price is an independent investment management firm focused on helping cl
 - [Commitizen](https://github.com/commitizen/cz-cli). 
 - [VictoryChart](https://formidable.com/open-source/victory/docs/victory-chart/).
 - [Git](https://git-scm.com/).
+
+
+## Getting Started
+
+### Clone the project on your local machine.
+
+Run the following command on your local directory.
+
+```bash
+$ git clone git@github.com:koombea/TRP-web.git
+```
+
+### Install dependencies
+
+```bash
+$ yarn install
+```
+
+### Run development environment.
+
+```bash
+$ yarn dev
+```
+
+### Editor extensions (Optional)
+
+It's recommended to install extensions related to the following libraries in your editor:
+
+- Prettier
+- Eslint
+
+### Set up pre-commits
 
 ## Live Demo
 

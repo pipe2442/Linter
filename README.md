@@ -74,13 +74,22 @@ This project has been developed to accomplish the Ruby module capstone project a
 
 
 
+## Overview
+
+T. Rowe Price is an independent investment management firm focused on helping clients meet their objectives and achieve their long-term financial goals. Clients rely on our active management approach, which we call strategic investing, and our broad range of equity, fixed income, and multi-asset investment capabilities.
 
 ## Built With
 
-- [Ruby](https://www.ruby-lang.org/en/).
-- [rspec](https://rspec.info/).
+- [React](https://reactjs.org/).
+- [Typescript](https://www.typescriptlang.org/)
+- [TailwindCss](https://tailwindcss.com/).
+- [Jest](https://jestjs.io/). 
+- [Cypress](https://www.cypress.io/).
+- [Storybook](https://storybook.js.org/).
+- [SizeLimit](https://github.com/ai/size-limit).
+- [Commitizen](https://github.com/commitizen/cz-cli). 
+- [VictoryChart](https://formidable.com/open-source/victory/docs/victory-chart/).
 - [Git](https://git-scm.com/).
-- [Rubocop](https://github.com/microverseinc/linters-config/tree/master/ruby). 
 
 ## Live Demo
 

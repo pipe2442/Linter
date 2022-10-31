@@ -25,7 +25,6 @@ This project has been developed to accomplish the Ruby module capstone project a
         <img src="https://i.ibb.co/TtKdzZQ/trplogo.png" alt="TRP Emblem">
         <a href="https://www.troweprice.com/corporate/us/en/home.html">TRowePrice</a>
     </h1>
-    ![screenshot](https://i.ibb.co/wr8tJYx/trowbanner.png)
     <h4><b>New website for the Triumph Mayflower Club, launched in March 2018</b></h4>
     <h4>
         <a href="#links">Links</a>
@@ -67,7 +66,7 @@ This project has been developed to accomplish the Ruby module capstone project a
     </h3>
 </div>
 
-
+![screenshot](https://i.ibb.co/wr8tJYx/trowbanner.png)
 
 
 

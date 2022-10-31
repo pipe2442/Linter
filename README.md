@@ -20,18 +20,12 @@ This project has been developed to accomplish the Ruby module capstone project a
 
 
 
-<h1>
-  <img src="https://i.ibb.co/ZBMBnHp/Brand-zone.png" alt="TRP Emblem" height="23px">
-  <a href="https://www.triumphmayflowerclub.com/">TRowePrice</a>
-</h1>
-
-![screenshot](https://i.ibb.co/wr8tJYx/trowbanner.png)
-
 <div align="center">
     <h1>
         <img src="https://i.ibb.co/TtKdzZQ/trplogo.png" alt="TRP Emblem">
         <a href="https://www.troweprice.com/corporate/us/en/home.html">TRowePrice</a>
     </h1>
+    ![screenshot](https://i.ibb.co/wr8tJYx/trowbanner.png)
     <h4><b>New website for the Triumph Mayflower Club, launched in March 2018</b></h4>
     <h4>
         <a href="#links">Links</a>

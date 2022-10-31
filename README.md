@@ -58,9 +58,6 @@ This project has been developed to accomplish the Ruby module capstone project a
         <a href="https://www.troweprice.com/corporate/us/en/home.html">
             <img src="https://img.shields.io/website?url=http%3A%2F%2Fwww.troweprice.com%2F">
         </a>
-        <a href="https://www.github.com/koombea/TRP-web/commits/develop">
-            <img src="https://img.shields.io/github/last-commit/koombea/TRP-web?color=blue&label=updated">
-        </a>
         <a href="#License">
             <img src="https://img.shields.io/badge/licence-%C2%A9-crimson">
         </a>
